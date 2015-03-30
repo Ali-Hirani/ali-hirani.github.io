@@ -37,6 +37,7 @@ html {
     padding-top: 4%;
     padding-bottom: 4%;
     margin-bottom: 50px;
+    opacity: 0.9
 }
 
 .intro h1 {
@@ -72,7 +73,7 @@ html {
     background: rgba(37, 0, 242, 0.88);
     /* fallback color */
     
-    background: rgba(71, 79, 177, 0.4);
+    background: rgba(71, 79, 177, 0.2);
     padding: 10px;
 }
 
@@ -81,7 +82,13 @@ html {
     margin-bottom: 45px;
 }
 
-.about p {
+.about p.overview {
+    padding-top: 10px;
+    height: 325px;
+    /*    text-align:justify; */
+}
+
+.about p.employment {
     padding-top: 10px;
     height: 325px;
     /*    text-align:justify; */
@@ -92,6 +99,7 @@ html {
     opacity: 0.9;
     height: 500px
 }
+
 .about .android-icon {
     border-width: 100px;
 }
