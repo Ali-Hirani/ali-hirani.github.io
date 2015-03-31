@@ -91,7 +91,7 @@ html {
 
 .about p.employment {
     padding-top: 36px;
-    height: 331px;
+    height: 325px;
     /*    text-align:justify; */
 }
 
@@ -105,9 +105,9 @@ html {
     opacity: 1;
 }
 
-.about .col p {
+/*.about .col p {
     text-indent: 50px;
-}
+}*/
 
 .about .android-icon {
     border-width: 100px;
