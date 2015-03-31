@@ -19,17 +19,17 @@ html {
     font-weight: 500;
     font-size: 24;
     border-radius: 50%;
-    background: #26a69a;
-    padding: .35%;
+    background: #424242;
+    padding: .30%;
     z-index: 0;
     border: solid;
     border-color: #ffffff;
     border-width: 2px;
 }
 
-.nav-wrapper .brand-logo1:hover {
+/*.nav-wrapper .brand-logo1:hover {
     background: #4db6ac;
-}
+}*/
 
 .intro {
     opacity: 1;
@@ -37,7 +37,7 @@ html {
     padding-top: 4%;
     padding-bottom: 4%;
     margin-bottom: 50px;
-    opacity: 0.9
+    opacity: 1;
 }
 
 .intro h1 {
@@ -83,14 +83,15 @@ html {
 }
 
 .about p.overview {
-    padding-top: 10px;
+    padding-top: 30px;
     height: 325px;
+    text-align: center;
     /*    text-align:justify; */
 }
 
 .about p.employment {
-    padding-top: 10px;
-    height: 325px;
+    padding-top: 36px;
+    height: 331px;
     /*    text-align:justify; */
 }
 
@@ -100,12 +101,21 @@ html {
     height: 500px
 }
 
+.about .employment img {
+    opacity: 1;
+}
+
+.about .col p {
+    text-indent: 50px;
+}
+
 .about .android-icon {
     border-width: 100px;
 }
 
 .about .collapsible-body {
     background: #ffffff;
+    height: 318px;
 }
 
 #nav-mobile {
