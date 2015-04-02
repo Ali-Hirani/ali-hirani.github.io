@@ -3,6 +3,7 @@ html {
     /*    background-color: #e8eaf6 !important;*/
     
     background: url(http://www.wallspick.com/wp-content/uploads/2014/09/8589130423107-blue-mountains-landscape-wallpaper-hd.jpg);
+    background: "res/mountain1.jpg";
     background-position: top;
 }
 
@@ -75,6 +76,7 @@ html {
     
     background: rgba(71, 79, 177, 0.2);
     padding: 10px;
+    /*text-shadow: 1px 1px #424242;*/
 }
 
 .about hr {
