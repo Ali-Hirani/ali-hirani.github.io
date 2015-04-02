@@ -27,7 +27,6 @@ html {
     border-color: #ffffff;
     border-width: 2px;
 }
-
 /*.nav-wrapper .brand-logo1:hover {
     background: #4db6ac;
 }*/
@@ -106,7 +105,6 @@ html {
 .about .employment img {
     opacity: 1;
 }
-
 /*.about .col p {
     text-indent: 50px;
 }*/
@@ -117,7 +115,7 @@ html {
 
 .about .collapsible-body {
     background: #ffffff;
-    height: 318px;
+    height: 363;
 }
 
 #nav-mobile {
