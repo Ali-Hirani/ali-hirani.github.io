@@ -1,9 +1,9 @@
 body,
 html {
     /*    background-color: #e8eaf6 !important;*/
+    /*    background: url(http://www.wallspick.com/wp-content/uploads/2014/09/8589130423107-blue-mountains-landscape-wallpaper-hd.jpg);*/
     
-    background: url(http://www.wallspick.com/wp-content/uploads/2014/09/8589130423107-blue-mountains-landscape-wallpaper-hd.jpg);
-    background: "res/mountain1.jpg";
+    background: url("http://ahirani.me/res/mountain1.png");
     background-position: top;
 }
 
