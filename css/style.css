@@ -116,6 +116,7 @@ html {
 .about .collapsible-body {
     background: #ffffff;
     height: 363;
+    overflow-y: auto;
 }
 
 #nav-mobile {
