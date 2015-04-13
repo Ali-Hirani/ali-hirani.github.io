@@ -17,13 +17,14 @@
     <nav>
         <div class="nav-wrapper">
             <!-- <a href="#" class="brand-logo"></a> -->
-            <a href="#" class="brand-logo1">AH</a>
+            <a class="brand-logo1">AH</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#" target="_blank">Resume</a>
+                <!--                <li><a onclick="toast('I am a toast', 4000)">Resume</a>-->
+                <li><a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Not Implemented">Resume</a>
                 </li>
                 <li><a href="https://github.com/Ali-Hirani" target="_blank">Github</a>
                 </li>
-                <li><a href="###" target="_blank">Contact</a>
+                <li><a class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Not Implemented">Contact</a>
                 </li>
             </ul>
         </div>
@@ -67,14 +68,25 @@
                         <img src="res/pi.jpg" width="64" height="64">
                         <p class="overview">My name is Ali Hirani and I am currently studying Computer Engineering at the University of Waterloo. I am deeply passionate about exploring various technologies in both the software and hardware spaces. I have delved into the following areas: Object oriented programming in C# and Java, quality assurance through black and grey box exploratory testing of applications, mobile app development for the Android platform in Java using Android Studio, Web development with HTML and CSS and the construction of various hardware projects using Arduino and Raspberry Pi. </p>
 
-                    </div>
 
+                    </div>
                     <div class="card-action">
-                        <a href="https://github.com/Ali-Hirani/material_website" target="_blank">Web</a>
-                        <a href="https://github.com/Ali-Hirani/Medical-Acronym-Dictionary" target="_blank">Android</a>
-                        <a href="https://github.com/Ali-Hirani/Goose-Apocalypse" target="_blank">C#</a>
-                        <a href="https://github.com/Ali-Hirani/color-mixing-lamp" target="_blank">Arduino</a>
-                        <!--                <a href='#'>Link</a>-->
+
+                        <span class="tooltipped" data- position="bottom" data-delay="50" data-tooltip="My Website">
+                            <a href="https://github.com/Ali-Hirani/material_website" target="_blank">Web</a>
+                        </span>
+                        <span class="tooltipped" data- position="bottom" data-delay="50" data-tooltip="Medical Acronym Dictionary">
+                            <a href="https://github.com/Ali-Hirani/Medical-Acronym-Dictionary" target="_blank">Android</a>
+                        </span>
+                        <span class="tooltipped" data- position="bottom" data-delay="50" data-tooltip="Console Based Game">
+                            <a href="https://github.com/Ali-Hirani/Goose-Apocalypse" target="_blank">C#</a>
+                        </span>
+                        <span class="tooltipped" data- position="bottom" data-delay="50" data-tooltip="Color Mixing Lamp"> 
+                            <a href="https://github.com/Ali-Hirani/color-mixing-lamp" target="_blank">Arduino</a>
+                        </span>
+                        <span class="tooltipped" data- position="bottom" data-delay="50" data-tooltip="Home Arrival Detection + Twitter API">
+                            <a href="https://github.com/Ali-Hirani/pi-tweet-home" target="_blank">Pi</a>
+                        </span>
                     </div>
                 </div>
                 <!--            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>-->
@@ -97,31 +109,32 @@
 
                     </div>
                     <div class="card-action">
-                        <a href="http://pivotallabs.com/" target="_blank"> Pivotal Labs</a>
+                        <a href="http://pivotallabs.com/" target="_blank">Pivotal Labs</a>
                         <!--                <a href='#'>Link</a>-->
                     </div>
                 </div>
             </div>
             <div class="col s12 m4 l4">
-                <h6>My Experiences</h6>
+                <h6>My Experience</h6>
                 <ul class="collapsible">
                     <li class="active">
-                        <div class="collapsible-header"><i class="mdi-action-android"></i>Android Developer</div>
+                        <div class="collapsible-header"><i class="mdi-action-android"></i>Android Developer - Acronym App</div>
                         <div class="collapsible-body">
-                            <p>My interest in android development sparked as a result of my interest in mobile app development, open source platforms and due to my love of the platform. I began with basic Youtube tutorials and later progressed to <a href="https://github.com/Ali-Hirani/proj-sunshine-udacity">Project Sunshine</a>, a course offered by <b>Google</b> through Udacity. Here, I constructed a weather application and explored the use of network calls and AsyncTasks to make use of an API. After learning this I saw through <a href="https://github.com/Ali-Hirani/Medical-Acronym-Dictionary">my own project</a> which uses the <a href="http://www.nactem.ac.uk/software/acromine/rest.html">AcroMine API</a> to return the various long-forms for (primarily medical) acronyms.</p>
+                            <p>My interest in android development sparked as a result of my interest in mobile app development, open source platforms and due to my love of the operating system. I began with basic Youtube tutorials and later progressed to <a href="https://github.com/Ali-Hirani/proj-sunshine-udacity" target="_blank">Project Sunshine</a>, a course offered by <b>Google</b> through Udacity. Here, I constructed a weather application and explored the use of network calls and AsyncTasks to make use of the <a href="http://openweathermap.org/api" target="_blank">OpenWeatherMap API</a>. After learning this I saw through <a href="https://github.com/Ali-Hirani/Medical-Acronym-Dictionary" target="_blank">my own project</a> which uses the <a href="http://www.nactem.ac.uk/software/acromine/rest.html" target="_blank">AcroMine API</a> to return the various long-forms for (primarily medical) acronyms.</p>
                         </div>
                     </li>
                     <li>
-                        <div class="collapsible-header"><i class="mdi-action-bug-report"></i>Agile Test Engineer</div>
+                        <div class="collapsible-header"><i class="mdi-action-bug-report"></i>Agile Test Engineer - Pivotal Labs</div>
                         <div class="collapsible-body">
                             <p><u>My primary responsibilities include</u>: manual testing of mobile applications in an agile environment, applying exploratory testing methods using a charter based approached, bug reporting and tracking using Pivotal Tracker and JIRA, using tools such as ADB, Charles Proxy, Xcode and Selenium.
                                 <br></br><u>My secondary responsibilities include</u>: updating release candidate test cases, communicating with developers regarding issues and potential solutions and creating and modifying scripts in bash utilized by the team.</p>
                         </div>
                     </li>
                     <li>
-                        <div class="collapsible-header"><i class="mdi-image-healing"></i>PC Support Specialist</div>
+                        <div class="collapsible-header"><i class="mdi-image-healing"></i>PC Support Specialist - Livingston Intl</div>
                         <div class="collapsible-body">
-                            <p>My primary responsibility was to provide internal support to 1000s of employees, in 100+ locations globally, by phone, email and/or in person while addressing issues in the following areas: PC (hardware and software), Office 365, BlackBerry device and network, domain and VPN access, printers and MFUs, security account etc. During the last month of my term, I acted as a monthly team captain which involved: facilitating communication between the IT director and the team, distributing daily team reports, overseeing the flow of over 200 support tickets at a time and allocating tasks to team members and managing crises.
+                            <p><u>My primary responsibility</u> was to provide internal support to <u>1000s of employees, in 100+ locations globally</u>, by phone, email and/or in person while addressing issues in the following areas: PC (hardware and software), Office 365, BlackBerry device and network, domain and VPN access, printers and MFUs, security account etc.
+                                <br></br> During the last month of my term, I acted as a <u>monthly team captain</u> which involved: facilitating communication between the IT director and the team, distributing daily team reports, overseeing the flow of over <u>200 support tickets</u> at a time and allocating tasks to team members and managing crises.
 
                             </p>
                         </div>
@@ -136,23 +149,29 @@
                 </ul>
             </div>
         </div>
-    </div>
 
-    <!-- jQuery is required by Materialize to function -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript">
-    </script>
-    <script>
-        $('.dropdown-button').dropdown({
-            inDuration: 300,
-            outDuration: 225,
-            constrain_width: true, // Does not change width of dropdown to that of the activator
-            hover: false, // Activate on click
-            alignment: 'left', // Aligns dropdown to left or right edge (works with constrain_width)
-            gutter: 0, // Spacing from edge
-        });
-    </script>
+        <div class="fixed-action-btn" style="bottom: 24px; right: 24px;">
+            <a href="https://github.com/Ali-Hirani" target="_blank">
+                <img src="res/git.png" width="64" height="64">
+            </a>
+        </div>
+
+
+        <!-- jQuery is required by Materialize to function -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script type="text/javascript">
+        </script>
+        <script>
+            $('.dropdown-button').dropdown({
+                inDuration: 300,
+                outDuration: 225,
+                constrain_width: true, // Does not change width of dropdown to that of the activator
+                hover: false, // Activate on click
+                alignment: 'left', // Aligns dropdown to left or right edge (works with constrain_width)
+                gutter: 0, // Spacing from edge
+            });
+        </script>
 
 </body>
 

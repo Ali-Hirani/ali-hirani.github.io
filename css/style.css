@@ -87,11 +87,12 @@ html {
     padding-top: 30px;
     height: 325px;
     text-align: center;
+    overflow-y: auto;
     /*    text-align:justify; */
 }
 
 .about p.employment {
-    padding-top: 36px;
+    padding-top: 30px;
     height: 325px;
     /*    text-align:justify; */
 }
@@ -99,7 +100,7 @@ html {
 .about .card {
     text-align: center;
     opacity: 0.9;
-    height: 500px
+    height: 500px;
 }
 
 .about .employment img {
