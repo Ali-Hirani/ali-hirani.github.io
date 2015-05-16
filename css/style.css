@@ -5,6 +5,9 @@ html {
     
     background: url("http://ahirani.me/res/mountain.jpg");
     background-position: top;
+    width: 100%;
+    min-width: 1000px;
+    height: auto;
 }
 
 .nav-wrapper {
@@ -84,7 +87,7 @@ html {
 }
 
 .about p.overview {
-    padding-top: 30px;
+    padding-top: 20px;
     height: 325px;
     text-align: center;
     overflow-y: auto;
@@ -92,8 +95,9 @@ html {
 }
 
 .about p.employment {
-    padding-top: 30px;
+    padding-top: 20px;
     height: 325px;
+    overflow-y: auto;
     /*    text-align:justify; */
 }
 
@@ -101,6 +105,10 @@ html {
     text-align: center;
     opacity: 0.9;
     height: 500px;
+}
+
+.about .card-action {
+    overflow-y: auto;
 }
 
 .about .employment img {
@@ -112,6 +120,12 @@ html {
 
 .about .android-icon {
     border-width: 100px;
+}
+
+.about .collapsible-header {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .about .collapsible-body {
